@@ -1,0 +1,3 @@
+La tabella di import directory ci mostra come siano importate le librerie Kenrell32.dll, Advapi32.dll, Msvcrt.dll e Wininet.dll, questo implica che probabilmente sono importati ed utilizzati metodi per integrare l’os con relative funzioni per interagire con servizi e registri, manipolazione di stringhe e l’introduzione dei protocolli http, FTP e NTP.
+Selezionando una libreria per volta possiamo poi approfondire le nostre ipotesi e scoprire quali funzioni sono realmente richiamate per ognuna di esse.
+Purtroppo però i nomi delle sezioni sembrano essere nascosti  e non possiamo trarre granché dal  Section Headers oltre alle Virtual size ed alle Raw size.
